@@ -1,0 +1,382 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "img": "http://www.serebii.net/pokemongo/pokemon/001.png",
+      "type": ["Grass", "Poison"],
+      "height": "0.71 m",
+      "weight": "6.9 kg",
+      "multipliers": [1.58],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "next_evolution": [
+        {"num": "002", "name": "Ivysaur"},
+        {"num": "003", "name": "Venusaur"}
+      ],
+      "prev_evolution": [],
+      "spawn_time": "2:23",
+      "egg": "2 km"
+    },
+    {
+      "id": 2,
+      "name": "Ivysaur",
+      "img": "http://www.serebii.net/pokemongo/pokemon/002.png",
+      "type": ["Grass", "Poison"],
+      "height": "1.00 m",
+      "weight": "13.0 kg",
+      "multipliers": [1.42],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "next_evolution": [
+        {"num": "003", "name": "Venusaur"}
+      ],
+      "prev_evolution": [
+        {"num": "001", "name": "Bulbasaur"}
+      ],
+      "spawn_time": "5:15",
+      "egg": "Not in Eggs"
+    },
+    {
+      "id": 3,
+      "name": "Venusaur",
+      "img": "http://www.serebii.net/pokemongo/pokemon/003.png",
+      "type": ["Grass", "Poison"],
+      "height": "2.00 m",
+      "weight": "100.0 kg",
+      "multipliers": null,
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "next_evolution": [],
+      "prev_evolution": [
+        {"num": "002", "name": "Ivysaur"}
+      ],
+      "spawn_time": "10:30",
+      "egg": "Not in Eggs"
+    },
+    {
+      "id": 4,
+      "name": "Charmander",
+      "img": "http://www.serebii.net/pokemongo/pokemon/004.png",
+      "type": ["Fire"],
+      "height": "0.61 m",
+      "weight": "8.5 kg",
+      "multipliers": [1.65],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "next_evolution": [
+        {"num": "005", "name": "Charmeleon"},
+        {"num": "006", "name": "Charizard"}
+      ],
+      "prev_evolution": [],
+      "spawn_time": "1:45",
+      "egg": "2 km"
+    },
+    {
+      "id": 5,
+      "name": "Charmeleon",
+      "img": "http://www.serebii.net/pokemongo/pokemon/005.png",
+      "type": ["Fire"],
+      "height": "1.09 m",
+      "weight": "19.0 kg",
+      "multipliers": [1.59],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "next_evolution": [
+        {"num": "006", "name": "Charizard"}
+      ],
+      "prev_evolution": [
+        {"num": "004", "name": "Charmander"}
+      ],
+      "spawn_time": "5:30",
+      "egg": "Not in Eggs"
+    },
+    {
+      "id": 6,
+      "name": "Charizard",
+      "img": "http://www.serebii.net/pokemongo/pokemon/006.png",
+      "type": ["Fire", "Flying"],
+      "height": "1.70 m",
+      "weight": "90.5 kg",
+      "multipliers": null,
+      "weaknesses": ["Water", "Electric", "Rock"],
+      "next_evolution": [],
+      "prev_evolution": [
+        {"num": "005", "name": "Charmeleon"}
+      ],
+      "spawn_time": "6:00",
+      "egg": "Not in Eggs"
+    },
+    {
+      "id": 7,
+      "name": "Squirtle",
+      "img": "http://www.serebii.net/pokemongo/pokemon/007.png",
+      "type": ["Water"],
+      "height": "0.51 m",
+      "weight": "9.0 kg",
+      "multipliers": [1.62],
+      "weaknesses": ["Electric", "Grass"],
+      "next_evolution": [
+        {"num": "008", "name": "Wartortle"},
+        {"num": "009", "name": "Blastoise"}
+      ],
+      "prev_evolution": [],
+      "spawn_time": "1:45",
+      "egg": "2 km"
+    },
+    {
+      "id": 8,
+      "name": "Wartortle",
+      "img": "http://www.serebii.net/pokemongo/pokemon/008.png",
+      "type": ["Water"],
+      "height": "1.00 m",
+      "weight": "22.5 kg",
+      "multipliers": [1.54],
+      "weaknesses": ["Electric", "Grass"],
+      "next_evolution": [
+        {"num": "009", "name": "Blastoise"}
+      ],
+      "prev_evolution": [
+        {"num": "007", "name": "Squirtle"}
+      ],
+      "spawn_time": "3:55",
+      "egg": "Not in Eggs"
+    },
+    {
+      "id": 9,
+      "name": "Blastoise",
+      "img": "http://www.serebii.net/pokemongo/pokemon/009.png",
+      "type": ["Water"],
+      "height": "1.60 m",
+      "weight": "85.5 kg",
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass"],
+      "next_evolution": [],
+      "prev_evolution": [
+        {"num": "008", "name": "Wartortle"}
+      ],
+      "spawn_time": "9:10",
+      "egg": "Not in Eggs"
+    },
+    {
+      "id": 25,
+      "name": "Pikachu",
+      "img": "http://www.serebii.net/pokemongo/pokemon/025.png",
+      "type": ["Electric"],
+      "height": "0.41 m",
+      "weight": "6.0 kg",
+      "multipliers": [1.43],
+      "weaknesses": ["Ground"],
+      "next_evolution": [
+        {"num": "026", "name": "Raichu"}
+      ],
+      "prev_evolution": [],
+      "spawn_time": "2:30",
+      "egg": "2 km"
+    },
+    {
+      "id": 26,
+      "name": "Raichu",
+      "img": "http://www.serebii.net/pokemongo/pokemon/026.png",
+      "type": ["Electric"],
+      "height": "0.79 m",
+      "weight": "30.0 kg",
+      "multipliers": [1.38],
+      "weaknesses": ["Ground"],
+      "next_evolution": [],
+      "prev_evolution": [
+        {"num": "025", "name": "Pikachu"}
+      ],
+      "spawn_time": "6:15",
+      "egg": "Not in Eggs"
+    },
+    {
+      "id": 37,
+      "name": "Vulpix",
+      "img": "http://www.serebii.net/pokemongo/pokemon/037.png",
+      "type": ["Fire"],
+      "height": "0.61 m",
+      "weight": "9.9 kg",
+      "multipliers": [1.77],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "next_evolution": [
+        {"num": "038", "name": "Ninetales"}
+      ],
+      "prev_evolution": [],
+      "spawn_time": "3:45",
+      "egg": "5 km"
+    },
+    {
+      "id": 38,
+      "name": "Ninetales",
+      "img": "http://www.serebii.net/pokemongo/pokemon/038.png",
+      "type": ["Fire"],
+      "height": "1.09 m",
+      "weight": "19.9 kg",
+      "multipliers": null,
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "next_evolution": [],
+      "prev_evolution": [
+        {"num": "037", "name": "Vulpix"}
+      ],
+      "spawn_time": "8:20",
+      "egg": "Not in Eggs"
+    },
+    {
+      "id": 63,
+      "name": "Abra",
+      "img": "http://www.serebii.net/pokemongo/pokemon/063.png",
+      "type": ["Psychic"],
+      "height": "0.89 m",
+      "weight": "19.5 kg",
+      "multipliers": [1.36],
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "next_evolution": [
+        {"num": "064", "name": "Kadabra"},
+        {"num": "065", "name": "Alakazam"}
+      ],
+      "prev_evolution": [],
+      "spawn_time": "4:30",
+      "egg": "5 km"
+    },
+    {
+      "id": 64,
+      "name": "Kadabra",
+      "img": "http://www.serebii.net/pokemongo/pokemon/064.png",
+      "type": ["Psychic"],
+      "height": "1.30 m",
+      "weight": "56.5 kg",
+      "multipliers": [1.24],
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "next_evolution": [
+        {"num": "065", "name": "Alakazam"}
+      ],
+      "prev_evolution": [
+        {"num": "063", "name": "Abra"}
+      ],
+      "spawn_time": "7:45",
+      "egg": "Not in Eggs"
+    },
+    {
+      "id": 65,
+      "name": "Alakazam",
+      "img": "http://www.serebii.net/pokemongo/pokemon/065.png",
+      "type": ["Psychic"],
+      "height": "1.50 m",
+      "weight": "48.0 kg",
+      "multipliers": null,
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "next_evolution": [],
+      "prev_evolution": [
+        {"num": "064", "name": "Kadabra"}
+      ],
+      "spawn_time": "12:00",
+      "egg": "Not in Eggs"
+    },
+    {
+      "id": 94,
+      "name": "Gengar",
+      "img": "http://www.serebii.net/pokemongo/pokemon/094.png",
+      "type": ["Ghost", "Poison"],
+      "height": "1.50 m",
+      "weight": "40.5 kg",
+      "multipliers": [1.32],
+      "weaknesses": ["Ghost", "Psychic", "Dark", "Ground"],
+      "next_evolution": [],
+      "prev_evolution": [
+        {"num": "093", "name": "Haunter"}
+      ],
+      "spawn_time": "3:30",
+      "egg": "Not in Eggs"
+    },
+    {
+      "id": 133,
+      "name": "Eevee",
+      "img": "http://www.serebii.net/pokemongo/pokemon/133.png",
+      "type": ["Normal"],
+      "height": "0.30 m",
+      "weight": "6.5 kg",
+      "multipliers": [1.51],
+      "weaknesses": ["Fighting"],
+      "next_evolution": [
+        {"num": "134", "name": "Vaporeon"},
+        {"num": "135", "name": "Jolteon"},
+        {"num": "136", "name": "Flareon"}
+      ],
+      "prev_evolution": [],
+      "spawn_time": "5:45",
+      "egg": "10 km"
+    },
+    {
+      "id": 134,
+      "name": "Vaporeon",
+      "img": "http://www.serebii.net/pokemongo/pokemon/134.png",
+      "type": ["Water"],
+      "height": "1.00 m",
+      "weight": "29.0 kg",
+      "multipliers": null,
+      "weaknesses": ["Electric", "Grass"],
+      "next_evolution": [],
+      "prev_evolution": [
+        {"num": "133", "name": "Eevee"}
+      ],
+      "spawn_time": "7:30",
+      "egg": "Not in Eggs"
+    },
+    {
+      "id": 135,
+      "name": "Jolteon",
+      "img": "http://www.serebii.net/pokemongo/pokemon/135.png",
+      "type": ["Electric"],
+      "height": "0.79 m",
+      "weight": "24.5 kg",
+      "multipliers": [1.47],
+      "weaknesses": ["Ground"],
+      "next_evolution": [],
+      "prev_evolution": [
+        {"num": "133", "name": "Eevee"}
+      ],
+      "spawn_time": "9:15",
+      "egg": "Not in Eggs"
+    },
+    {
+      "id": 136,
+      "name": "Flareon",
+      "img": "http://www.serebii.net/pokemongo/pokemon/136.png",
+      "type": ["Fire"],
+      "height": "0.89 m",
+      "weight": "25.0 kg",
+      "multipliers": [1.49],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "next_evolution": [],
+      "prev_evolution": [
+        {"num": "133", "name": "Eevee"}
+      ],
+      "spawn_time": "8:45",
+      "egg": "Not in Eggs"
+    },
+    {
+      "id": 143,
+      "name": "Snorlax",
+      "img": "http://www.serebii.net/pokemongo/pokemon/143.png",
+      "type": ["Normal"],
+      "height": "2.11 m",
+      "weight": "460.0 kg",
+      "multipliers": [1.11],
+      "weaknesses": ["Fighting"],
+      "next_evolution": [],
+      "prev_evolution": [],
+      "spawn_time": "15:30",
+      "egg": "10 km"
+    },
+    {
+      "id": 150,
+      "name": "Mewtwo",
+      "img": "http://www.serebii.net/pokemongo/pokemon/150.png",
+      "type": ["Psychic"],
+      "height": "2.01 m",
+      "weight": "122.0 kg",
+      "multipliers": null,
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "next_evolution": [],
+      "prev_evolution": [],
+      "spawn_time": "22:00",
+      "egg": "Not in Eggs"
+    }
+  ]
+}
