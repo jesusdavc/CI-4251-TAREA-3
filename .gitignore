@@ -1,0 +1,18 @@
+# GHC/Cabal build artifacts
+/dist-newstyle
+/*.hi
+/*.o
+*.prof
+*.haddock
+
+# Cabal files
+/*.cabal.config
+
+# Stack artifacts
+/.stack-work
+
+# Editor files
+*.swp
+*~
+*.bak
+.DS_Store
